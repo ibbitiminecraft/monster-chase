@@ -1,0 +1,94 @@
+# =============== #
+#   Unity Folders #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures (Unity 2020+)
+[Mm]emoryCaptures/
+
+# Asset meta data should NOT be ignored
+# (Make sure Asset Serialization is set to Force Text in Unity)
+
+# =============== #
+#   IDE / Editor  #
+# =============== #
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# JetBrains Rider plugin
+Assets/Plugins/Editor/JetBrains*
+
+# =============== #
+#   OS Generated  #
+# =============== #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============== #
+#   Builds        #
+# =============== #
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.ipa
+*.xcodeproj
+
+# Addressables
+ServerData/
+
+# =============== #
+#   Crash Reports #
+# =============== #
+
+sysinfo.txt
+mono_crash.*
+
+# =============== #
+#   Other         #
+# =============== #
+
+# Gradle cache (Android)
+.gradle/
+
+# Generated documentation
+Documentation~
