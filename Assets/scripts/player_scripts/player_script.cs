@@ -56,13 +56,13 @@ public class player_script : MonoBehaviour
     void walk_player()
     {
 
-        if (Keyboard.current.leftArrowKey.isPressed)
+        if (pointerscriprleftcopy.ispressed)
         {
             moveDir = -1f;
             transform.position += new Vector3(moveDir, 0, 0) * motion_force * Time.deltaTime;
             renderer.flipX = true;
         }
-        else if (Keyboard.current.rightArrowKey.isPressed)
+        else if (pointerscriprright.ispressed)
         {
             moveDir = 1f;
             transform.position += new Vector3(moveDir, 0, 0) * motion_force * Time.deltaTime;
@@ -87,7 +87,7 @@ public class player_script : MonoBehaviour
     }
     void jump_player()
     {
-        if (Keyboard.current.upArrowKey.isPressed && isGrounded)
+        if (mobilejumpscript.ispressed && isGrounded)
         {
             isGrounded = false;
             myBody.AddForce(new Vector2(0f, jump_force), ForceMode2D.Impulse);
@@ -112,7 +112,7 @@ public class player_script : MonoBehaviour
     }
     void ShootBullet()
     {
-        if (!isBulletOnScreen && Keyboard.current.spaceKey.IsPressed())
+        if (!isBulletOnScreen && mobilefirescript.ispressed)
         {
             var bullet = Instantiate(BulletReference);
 
